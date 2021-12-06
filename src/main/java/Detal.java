@@ -42,6 +42,7 @@ public class Detal{
         this.idProivoditel = idProivoditel;
     }
 
+
     public String getName() {
         return Name;
     }

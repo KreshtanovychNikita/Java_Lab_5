@@ -54,6 +54,7 @@ public class Proizvoditel implements Comparable <Proizvoditel>{
         Country = country;
     }
 
+
     @Override
     public String toString() {
         return "Proizvoditel{" +
