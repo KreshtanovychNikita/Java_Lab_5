@@ -66,7 +66,7 @@ public class Detal{
         Price = price;
     }
 
-    @override
+
 
     @Override
     public String toString() {
@@ -79,7 +79,14 @@ public class Detal{
                 '}';
     }
 
-    public static void main(String[] args) throws SQLException{
+
+
+
+
+
+
+
+    /*public static void main(String[] args) throws SQLException{
 
         Detal a1 = new Detal(1,5,"Koleso",11,8525);
         Detal a2 = new Detal(2,6,"Porshen",12,6823);
@@ -110,9 +117,9 @@ public class Detal{
          *
          * */
 
-        Collection<Detal> detals = new ArrayList<Detal>();
+       /* Collection<Detal> detals = new ArrayList<Detal>();
 
-        detals = manageDetal.selectAll();
+        detals = managerDetal.selectAll();
             for (Detal detal: detals){
 
                 System.out.println(detal);
@@ -123,7 +130,7 @@ public class Detal{
          * Detal  price more than 8000
          * */
 
-        Collection<Detal> detals = new ArrayList<Detal>();
+      /*  Collection<Detal> detals = new ArrayList<Detal>();
 
         detals = managerDetal.selectMorePrice(8000);
             for (Detal detal: detals){
@@ -137,7 +144,7 @@ public class Detal{
          *
          * */
 
-        managerDetal.UpdatePrice(5000,3);
+        /*managerDetal.UpdatePrice(5000,3);
         Collection<Detal> detals = new ArrayList<Detal>();
 
         detals = managerDetal.selectAll();
@@ -150,7 +157,7 @@ public class Detal{
 
 
             managerDetal.closeConn();
-    }
+    }*/
 
 
 }

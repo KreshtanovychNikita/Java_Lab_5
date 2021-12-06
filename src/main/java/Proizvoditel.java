@@ -1,8 +1,8 @@
 
-import java.sql.*;
 import java.util.*;
+import java.util.Objects;
 
-public class Proizvoditel {
+public class Proizvoditel implements Comparable <Proizvoditel>{
 
     private int id;
     private String Name;
@@ -108,6 +108,10 @@ public class Proizvoditel {
 
 
         manager.closeConn();
+    }*/
+
+    public void sortByPrice(List<Proizvoditel> list){
+        Collections.sort(list, new NewComparableProizvoditel());
     }
 
     public Detal MaxDetalPrice(List<Detal> list){
